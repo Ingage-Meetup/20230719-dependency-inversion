@@ -10,10 +10,11 @@ beforeEach(() => {
 })
 
 // This is an integration test - the UserService being tested is using the real UserRepository, which
-// depends on the database. 
+// depends on the database. This test is currently failing.
 test('Should be able to create a user and read it back and verify proper values', async () => {
     const userService = new UserService()
 
+    // I was working on this while Miss Swift had taken over Cincinnati and "Tay-cor" stadium, so...
     const firstName = 'Taylor'
     const lastName = 'Swift'
     const birthdate = new Date(1989, 11, 13)
