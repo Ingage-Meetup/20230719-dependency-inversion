@@ -3,12 +3,6 @@ import { User, UserRepository, UserService } from './kata'
 import { anyNumber, anything, capture, deepEqual, instance, mock, verify, when } from 'ts-mockito'
 import { fail } from 'assert'
 
-let userRepositoryMock: UserRepository
-
-beforeEach(() => {
-    userRepositoryMock = mock<UserRepository>()
-})
-
 // This is an integration test - the UserService being tested is using the real UserRepository, which
 // depends on the database. This test is currently failing.
 test('Should be able to create a user and read it back and verify proper values', async () => {
