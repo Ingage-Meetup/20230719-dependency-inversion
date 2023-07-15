@@ -3,6 +3,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 
+// A simple entity object that we'll persist in our database
 public class User {
     private int id;
     private String firstName;

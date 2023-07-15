@@ -1,8 +1,3 @@
-// This is an implementation of the UserRepository interface, using a real database.
-// In this case, it is just an in-memory Sqlite database, but could be Postgres, MySQL, etc.
-// There should be no changes required here for this exercise, but feel free to explore
-// once you've completed the exercise.
-
 import java.sql.Statement;
 import java.util.List;
 import java.util.Optional;
@@ -11,6 +6,10 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+// This is an implementation of the UserRepository interface, using a real database.
+// In this case, it is just an in-memory Sqlite database, but could be Postgres, MySQL, etc.
+// There should be no changes required here for this exercise, but feel free to explore
+// once you've completed the exercise.
 public class SqliteUserRepository implements UserRepository {
     private Connection dbConn;
 
