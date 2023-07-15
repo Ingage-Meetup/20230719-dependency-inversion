@@ -15,6 +15,11 @@ import java.util.Date;
 import java.util.Optional;
 
 public class UserServiceTest {
+    @Test
+    public void helloWorld() {
+        assertEquals(true, true);
+    }
+
     // This is an integration test - the UserService being tested is using the real
     // UserRepository, which depends on the database. This test is currently
     // failing.
@@ -41,8 +46,7 @@ public class UserServiceTest {
 
     // This is a unit test - we will create a mock of the UserRepository, so that we
     // can isolate the test to only testing the UserService. This will help to track
-    // down
-    // the bug in the UserService.createUser method.
+    // down the bug in the UserService.createUser method.
     @Test
     public void userServiceShouldCreateUserWithProperValues() {
         fail("Please implement this test. Thanks!");
