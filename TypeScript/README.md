@@ -27,7 +27,7 @@ This test is a true unit test, and is not implemented yet. There are comments in
 This is really an integration test - the UserService is using a concrete SqliteUserRepository for database access, and it is writing to and reading from the database as part of the test. The test is failing, but there is really no way in this test to determine the root cause for the failure. Once you find and fix the problem (by using the above test...), this test should also start passing.
 
 ## More Reading
-If you are interested in learning more about the tools we used in this Java example, check these out:
+If you are interested in learning more about the tools we used in this TypeScriupt example, check these out:
 * [ts-mockito](https://github.com/NagRock/ts-mockito) - a unit test mocking framework for TypeScript
 * [Jest](https://jestjs.io/) - a Javascript/TypeScript unit testing framework
 * [SQLite](https://www.sqlite.org/index.html) - a small & fast file-based SQL database engine
