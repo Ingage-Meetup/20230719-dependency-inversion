@@ -10,8 +10,9 @@ If you do not already have the following, you will need to install them for the 
 You can technically do this exercise without an IDE of any sort, but if you want to be able to debug, etc, an IDE makes that easier.
 
 ## Running the Tests
-Once you have gotten your preferred environment set up, you can run the unit tests from this directory by executing the following command:
+Once you have gotten your preferred environment set up, you can run the unit tests from this directory by executing the following commands:
 ```
+npm install
 npm run test
 ```
 
