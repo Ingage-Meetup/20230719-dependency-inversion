@@ -15,7 +15,7 @@ The projects are almost identical in their setup as far as the components involv
 2. `UserRepository` - a [Repository pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30) interface, defining the various operations you would need for persisting the `User` object to the database
 3. `SqliteUserRepository` - an implementation of the `UserRepository`, using an in-memory SQLite database. In both projects, this creates a `user` table in the database when it is constructed, mirroring the properties on the `User` class.
 4. `UserService` - a business service that depends on the `UserRepository` to manage the `User` persistence. Normally this service would have other business logic, but to keep things concise for this exercise, it simply does some mapping of inputs and calls the `UserRepository`.
-5. A unit test file for the `UserService`. In the TypeScript project, it is [./TypeScript/src/kata.spec.ts], and in the Java project, it is [./Java/src/test/java/UserServiceTest.java].
+5. A unit test file for the `UserService`. In the TypeScript project, it is [./TypeScript/src/kata.spec.ts](./TypeScript/src/kata.spec.ts), and in the Java project, it is [./Java/src/test/java/UserServiceTest.java](./Java/src/test/java/UserServiceTest.java).
 
 ### Your tasks for tonight's exercise
 - [ ] Pick a language from the two provided
