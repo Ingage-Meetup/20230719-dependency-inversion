@@ -17,12 +17,12 @@ The projects are almost identical in their setup as far as the components involv
 4. `UserService` - a business service that depends on the `UserRepository` to manage the `User` persistence. Normally this service would have other business logic, but to keep things concise for this exercise, it simply does some mapping of inputs and calls the `UserRepository`.
 5. A unit test file for the `UserService`. In the TypeScript project, it is [./TypeScript/src/kata.spec.ts], and in the Java project, it is [./Java/src/test/java/UserServiceTest.java].
 
-Your tasks for tonight's exercise are:
-1. Pick a language from the two provided
-2. Follow the instructions in the README under your chosen language to get yourself setup and understand the layout
-3. Run the unit tests for the project, and make sure you get one success and two failures
-4. Implement the test with the `fail("Please implement this test. Thanks!")` failure. There is commented code and instructions in the test method, so you can read and understand the comments, and uncomment when you are ready.
-5. Using the output from the test you just implemented, see if you can understand the reason for the test failure.
-6. Once you understand the root cause for the failure, fix the `UserService.addUser()` method, and re-run the tests. You should have 3 passing tests.
-7. At this point, you're done, but feel free to explore more.
-8. Please ask questions as you have them - we are covering a lot tonight, but they are important concepts that will help you grow as a software developer.
+### Your tasks for tonight's exercise
+- [ ] Pick a language from the two provided
+- [ ] Follow the instructions in the README under your chosen language to get yourself setup and understand the layout
+- [ ] Run the unit tests for the project, and make sure you get one success and two failures
+- [ ] Implement the test with the `fail("Please implement this test. Thanks!")` failure. There is commented code and instructions in the test method, so you can read and understand the comments, and uncomment when you are ready.
+- [ ] Using the output from the test you just implemented, see if you can understand the reason for the test failure.
+- [ ] Once you understand the root cause for the failure, fix the `UserService.addUser()` method, and re-run the tests. You should have 3 passing tests.
+- [ ] At this point, you're done, but feel free to explore more.
+- [ ] Please ask questions as you have them - we are covering a lot tonight, but they are important concepts that will help you grow as a software developer.
