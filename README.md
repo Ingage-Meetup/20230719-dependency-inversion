@@ -1,4 +1,4 @@
-# C3 - 20230719-dependency-injection
+# C3 - 20230719-dependency-inversion
 
 ## Overview
 This month's discussion and exercise are focused on [Dependency Inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle), and [Unit Testing with Mocks](https://www.telerik.com/products/mocking/unit-testing.aspx). 
